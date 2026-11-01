@@ -1,0 +1,178 @@
+{
+  "tickets": [
+    {
+      "title": "Charged twice for the monthly plan",
+      "description": "Our card was charged twice for the October subscription. Please help us investigate the duplicate payment. Invoice reference INV-2048.",
+      "customer_name": "Olivia Bennett",
+      "customer_email": "olivia@example.test",
+      "category": "billing",
+      "priority": "urgent",
+      "status": "open",
+      "assignee": "Hari Krishna",
+      "due_offset": 0,
+      "created_offset": 0
+    },
+    {
+      "title": "Password reset email never arrives",
+      "description": "I requested a reset several times and checked spam, but no email arrived. My account email is the one attached to this ticket.",
+      "customer_name": "Liam Chen",
+      "customer_email": "liam@example.test",
+      "category": "account",
+      "priority": "high",
+      "status": "in_progress",
+      "assignee": "Alex Morgan",
+      "due_offset": 0,
+      "created_offset": 1
+    },
+    {
+      "title": "CSV export stops at 100 rows",
+      "description": "The analytics export only contains the first 100 rows although our report has more data. We are using Chrome on Windows.",
+      "customer_name": "Amelia Brooks",
+      "customer_email": "amelia@example.test",
+      "category": "technical",
+      "priority": "medium",
+      "status": "open",
+      "assignee": "Unassigned",
+      "due_offset": 2,
+      "created_offset": 0
+    },
+    {
+      "title": "Update the billing address on our invoice",
+      "description": "Our company moved offices. We need the next invoice to show the updated billing address. Please explain what details you need.",
+      "customer_name": "Noah Williams",
+      "customer_email": "noah@example.test",
+      "category": "billing",
+      "priority": "low",
+      "status": "waiting",
+      "assignee": "Sam Rivera",
+      "due_offset": 3,
+      "created_offset": 2
+    },
+    {
+      "title": "Package arrived with a damaged item",
+      "description": "The outer package was intact, but the product screen is cracked. Photos and the order number can be provided on request.",
+      "customer_name": "Sofia Patel",
+      "customer_email": "sofia@example.test",
+      "category": "shipping",
+      "priority": "high",
+      "status": "in_progress",
+      "assignee": "Hari Krishna",
+      "due_offset": -1,
+      "created_offset": 3
+    },
+    {
+      "title": "Unable to invite a new teammate",
+      "description": "The invite button is disabled for our workspace administrator. We have three members and believe our plan includes five seats.",
+      "customer_name": "Ethan Davis",
+      "customer_email": "ethan@example.test",
+      "category": "account",
+      "priority": "medium",
+      "status": "open",
+      "assignee": "Unassigned",
+      "due_offset": 1,
+      "created_offset": 1
+    },
+    {
+      "title": "Webhook deliveries are returning 500",
+      "description": "Our order.created webhook endpoint has returned HTTP 500 since this morning. We need help checking the integration and recent retries.",
+      "customer_name": "Mia Thompson",
+      "customer_email": "mia@example.test",
+      "category": "technical",
+      "priority": "urgent",
+      "status": "open",
+      "assignee": "Alex Morgan",
+      "due_offset": 0,
+      "created_offset": 0
+    },
+    {
+      "title": "Question about moving to an annual plan",
+      "description": "We would like to know how an annual subscription affects the next billing date. Please confirm the available options before making a change.",
+      "customer_name": "Oliver Scott",
+      "customer_email": "oliver@example.test",
+      "category": "product",
+      "priority": "medium",
+      "status": "waiting",
+      "assignee": "Sam Rivera",
+      "due_offset": 2,
+      "created_offset": 4
+    },
+    {
+      "title": "Where can I download previous invoices?",
+      "description": "I need to download the invoices from the last three months for our accounting team.",
+      "customer_name": "Ava Martinez",
+      "customer_email": "ava@example.test",
+      "category": "billing",
+      "priority": "low",
+      "status": "resolved",
+      "assignee": "Hari Krishna",
+      "due_offset": null,
+      "created_offset": 5,
+      "resolved_offset": 1,
+      "resolution": "Shared the invoice download steps. Customer confirmed the previous invoices are available."
+    },
+    {
+      "title": "Shipment tracking has not updated",
+      "description": "The shipment has shown the same tracking event for two days. Could you check what information is needed to investigate?",
+      "customer_name": "Lucas Wilson",
+      "customer_email": "lucas@example.test",
+      "category": "shipping",
+      "priority": "medium",
+      "status": "open",
+      "assignee": "Unassigned",
+      "due_offset": 1,
+      "created_offset": 2
+    },
+    {
+      "title": "Workspace permissions explained",
+      "description": "We need to understand the difference between administrator and member permissions.",
+      "customer_name": "Isabella Moore",
+      "customer_email": "isabella@example.test",
+      "category": "account",
+      "priority": "medium",
+      "status": "resolved",
+      "assignee": "Alex Morgan",
+      "due_offset": null,
+      "created_offset": 6,
+      "resolved_offset": 0,
+      "resolution": "Explained the roles using the permissions guide. Customer confirmed their access works as expected."
+    },
+    {
+      "title": "Feature request: export in dark mode",
+      "description": "Our team uses the dark theme and would like exported report previews to retain that appearance.",
+      "customer_name": "James Taylor",
+      "customer_email": "james@example.test",
+      "category": "product",
+      "priority": "low",
+      "status": "open",
+      "assignee": "Unassigned",
+      "due_offset": null,
+      "created_offset": 1
+    }
+  ],
+  "articles": [
+    {
+      "title": "Troubleshooting password reset emails",
+      "category": "account",
+      "content": "Sample support guide\n\n1. Confirm the customer is using the email address associated with their account.\n2. Ask them to check spam and filtered folders.\n3. Verify the time of the most recent reset request.\n4. Escalate delivery failures to the account support team with the email and request time.\n\nNever ask customers to share passwords or reset tokens. This is fictional sample content; adapt it to your product.",
+      "published": true
+    },
+    {
+      "title": "Investigating a duplicate payment",
+      "category": "billing",
+      "content": "Sample support guide\n\nCollect the invoice reference, transaction dates, amounts and a redacted payment reference. Check whether either transaction is a pending authorization.\n\nEscalate to the billing team for verification. Do not promise or process a refund without the applicable policy and authorization. Never collect full card numbers.\n\nThis example describes an investigation checklist, not a real refund policy.",
+      "published": true
+    },
+    {
+      "title": "Getting started with workspace roles",
+      "category": "account",
+      "content": "Sample product guide\n\nA workspace administrator manages members and workspace settings. A member works with the records they have been granted access to.\n\nWhen investigating access, record the affected workspace, user email, role and the action that failed. Product permissions vary: replace this fictional guide with the rules for your real product.",
+      "published": true
+    },
+    {
+      "title": "Collecting useful integration diagnostics",
+      "category": "technical",
+      "content": "Sample troubleshooting guide\n\nRecord the integration event, approximate failure time, HTTP status and a redacted request ID. Ask for the steps to reproduce.\n\nKeep API keys, passwords and access tokens out of tickets. Start with the observed error and verify each suggested fix before marking an issue resolved.",
+      "published": true
+    }
+  ]
+}
